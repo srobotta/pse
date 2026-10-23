@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic table of the elements</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div>
+          <h1>
+            <span lang="de">Periodensystem <span class="subtitle">der Elemente</span></span>
+            <span lang="en">Periodic table <span class="subtitle">of the elements</span></span>
+            <span lang="fr">Tableau périodique <span class="subtitle">des éléments</span></span>
+            <span lang="it">Tavola periodica <span class="subtitle">degli elementi</span></span>
+            <span lang="es">Tabla periódica <span class="subtitle">de los elementos</span></span>
+          </h1>
+          <p class="tagline">
+            <span lang="de">Systematische Klassifizierung nach Atomnummer</span>
+            <span lang="en">Systematic classification by atomic number</span>
+            <span lang="en">Classification systématique selon le numéro atomique</span>
+            <span lang="it">Classificazione sistematica in base al numero atomico</span>
+            <span lang="es">Clasificación sistemática según el número atómico</span>
+          </p>
+        </div>
+
+        <div class="search desktop">
+          <span class="search-icon"></span>
+          <input type="text" placeholder="Suchen..." />
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="search mobile">
+          <span class="search-icon"></span>
+          <input type="text" placeholder="Element suchen..." />
+        </div>
+
+        <div class="legend" id="legend"></div>
+
+        <div class="table" id="table"></div>
+      </main>
+
+      <footer class="footer">
+        <div class="hint">
+          <p>
+            <span lang="de">Wählen Sie ein Element aus, um detaillierte Informationen anzuzeigen.</span>
+            <span lang="en">Please select an element, to get detailed information.</span>
+            <span lang="fr">Sélectionnez un élément pour afficher des informations détaillées.</span>
+            <span lang="it">Seleziona un elemento per visualizzare informazioni dettagliate.</span>
+            <span lang="es">Seleccione un elemento para ver información detallada.</span>
+        </p>
+        </div>
+        <div class="version">
+          <span>v2.0.1
+          </span>
+          <span class="dot"></span>
+          <span>Static Web App</span>
+        </div>
+      </footer>
+    </div>
+
+    <div class="info-card" id="info-card"></div>
+
+    <script src="elements.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
