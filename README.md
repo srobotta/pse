@@ -25,12 +25,18 @@ php -S localhost:8000
 ```
 
 Then open http://localhost:8000/ in your browser. You can also just open
-`index.html` directly from disk.
+`index.html` directly from disk (might not work at some browsers).
 
 ## Deploy
 
 Copy `index.html`, `styles.css`, `app.js`, and `elements.js` to any static
-host (Nginx, Apache, GitHub Pages, S3, Netlify, …). No Node.js required.
+host (Nginx, Apache, GitHub Pages, S3, Netlify, …). No Node.js, PHP or other
+scripting language is required.
+
+## Preview
+
+This single web app can be view directly at github:
+https://htmlpreview.github.io/?https://github.com/srobotta/pse/blob/master/index.html
 
 ## Multi language 
 
